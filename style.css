@@ -1,0 +1,98 @@
+html {
+  background-color: #0f0f0f;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  scrollbar-color: hsl(0, 0%, 67%) transparent;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+}
+
+.sbse-bada-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.three-video-previews {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.Container {
+  max-width: 398px;
+  cursor: pointer;
+  margin-bottom: 28px;
+}
+
+.Container .thumbnail {
+  width: 100%;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.thumbnail:hover {
+  border-radius: 0%;
+}
+
+.tbnail-row {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+.profile-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-top: 12px;
+  margin-right: 12px;
+  border-style: none;
+}
+
+.video-profile {
+  /* display: inline-block; */
+  width: 36px;
+  margin-right: 12px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.video-info {
+  /* display: inline-block;
+    width: 355px; */
+  margin: 0px;
+  cursor: pointer;
+  padding: 1.4px;
+}
+
+.video-title {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  max-height: 44px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.video-author,
+.video-stats {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 0px;
+  color: #d9d9d9;
+  margin-bottom: 1.5px;
+}

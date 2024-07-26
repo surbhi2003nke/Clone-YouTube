@@ -1,0 +1,204 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 56px;
+  background-color: #0f0f0f;
+  position: fixed;
+  top: 0px;
+  left: 6px;
+  right: 0px;
+  padding-right: 18px;
+  z-index: 100;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+#menu {
+  font-size: 30px;
+  margin: 12px 7px 12px 7px;
+  transition: 0.15s;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#menu:hover {
+  background-color: #272727;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.yt-icon {
+  height: 20px;
+  margin: 12px 12px 12px 12px;
+  cursor: pointer;
+}
+
+/* Middle header section here  */
+.middle {
+  display: flex;
+  flex: 1;
+  max-width: 700px;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.input-div {
+  display: flex;
+  flex: 1;
+  padding-top: 4px;
+  padding: 0px 4px 0px 16px;
+  height: 38px;
+  max-width: 515px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius: 20px;
+}
+
+
+.search-bar {
+  display: inline;
+  background-color: #0f0f0f;
+  color: white;
+  flex: 1;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 6px;
+  height: 24px;
+  line-height: 24px;
+  max-width: 515px;
+  font-size: 16px;
+
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  align-items: center;
+  
+}
+
+
+.search-btn {
+  height: 40px;
+  width: 70px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  border-style: solid;
+  font-size: 24px;
+  margin-left: -1px;
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px;
+}
+
+.mic-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-width: 0px;
+  border-style: solid;
+  font-size: 20px;
+  margin-left: 18px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.mic-btn:hover {
+  background-color: #3f3f3f;
+}
+
+.search-button .tooltip,
+.mic-button .tooltip 
+{
+  position: absolute;
+  background-color: #3f3f3f;
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  bottom: -48px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip,
+.mic-button:hover .tooltip
+{
+  opacity: 1;
+}
+
+/* Right header section here */
+.right {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#video-icon,
+#nt-icon {
+  font-size: 24px;
+  margin: 12px 8px 12px 4px;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.15s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#video-icon:hover,
+#nt-icon:hover {
+  background-color: #272727;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+
+.video-button .tooltip,
+.notification-icon-container .tooltip 
+{
+  position: absolute;
+  background-color: #3f3f3f;
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  bottom: -48px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.video-button:hover .tooltip,
+.notification-icon-container:hover .tooltip
+{
+  opacity: 1;
+}
+
+
+
+.ch-pfp {
+  height: 32px;
+  border-radius: 50%;
+  margin: 12px 12px 12px 12px;
+  cursor: pointer;
+}
